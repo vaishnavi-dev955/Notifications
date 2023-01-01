@@ -1,0 +1,85 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.background-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-design {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  padding-top: 12px;
+  padding-right: 8px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+}
+
+.paragraph {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 40px;
+  font-family: "Roboto";
+}
+
+.image1 {
+  height: 30px;
+  width: 30px;
+  margin-top: 14px;
+  margin-right: 10px;
+}
+
+.box1 {
+  background-color: #0b69ff;
+}
+
+.box2 {
+  background-color: #2dca73;
+}
+
+.box3 {
+  background-color: #ffb800;
+}
+
+.box4 {
+  background-color: #ff0b37;
+}
+
+.notifications-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .notifications-list-container {
+    width: 60%;
+  }
+  .common-design {
+    margin-bottom: 48px;
+    padding-top: 16px;
+    padding-right: 12px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+  }
+  .heading {
+    color: #0f172a;
+    font-size: 55px;
+    font-family: "Roboto";
+  }
+}
